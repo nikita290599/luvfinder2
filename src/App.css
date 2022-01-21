@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.bg{
+  box-sizing: border-box;
+  width:100vw;                      
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track:vertical  {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb:vertical  {
+  background-color: #01daba;
+  outline: 1px solid white;
+  border-radius: 10px;
+}
+
+
+/* mobile view css */
+@media screen and (max-width: 768px) {
+  #navbarSupportedContent{
+    margin-left: auto;
+  }
+  #navbarSupportedContent div{
+    margin-top:1vh;
+    margin-bottom: 1vh;
+  }
+  .brand{
+    width:170px;
+    margin:auto ;
+  }
+  .br{
+    
+    padding-bottom: 10px;
+  }
+  .brand div{
+    margin:auto;
+  }
+  .small li{
+    display:inline-block;
+  }
+
+.n{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-coin{
+  border:1px solid lightgrey;
+   border-radius: 20px;
+   font-size: 15px;
+   color:grey;
+   background-color: white;
+   margin:auto;
+}
+.tw{
+  font-size:15px;
+}
+.spinner{
+  margin:2vh;
+  width:98vw;
+  padding-left:35vw;
+}
+}
+
+@media screen and (max-width: 768px){
+  .spinner{
+    margin:2vh;
+    width:98vw;
+    padding-left:29vw;
+  }
+}

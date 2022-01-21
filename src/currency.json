@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "name": "Rupees",
+      "abbr": "INR",
+      "symbol": "₹"
+    },
+    {
+      "name": "Australian Dollar",
+      "abbr": "AUD",
+      "symbol": "$"
+    }
+    ,
+    {
+      "name": "US Dollar",
+      "abbr": "USD",
+      "symbol": "$"
+    }
+    ,{
+        "name": "Euro",
+        "abbr": "EUR",
+        "symbol": "€"
+    }
+
+    ,{
+        "name": "Russian Ruble",
+        "abbr": "RUB",
+        "symbol": "₽"
+    }
+    ,{
+        "name": "Chinese Yuan",
+        "abbr": "CNY",
+        "symbol": "¥"
+    }
+    ,{
+        "name": "South Korean Won",
+        "abbr": "KRW",
+        "symbol": "₩"
+    }
+    ,{
+        "name": "Japanese Yen ",
+        "abbr": "JPY",
+        "symbol": "¥"
+    }
+  ]
+}

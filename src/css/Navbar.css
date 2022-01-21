@@ -1,0 +1,121 @@
+.nav-item{
+    font-family:brandon_grotesquemedium ;
+    color:#9293BE;
+    font-size: 1.3rem;
+    font-weight:400;
+    margin-left: 2%;
+    float:right;
+    
+}
+.nav-item button{
+    font-size: 1.1rem;
+}
+.nav-item button span{
+    color:#1DA1F2;
+    margin-left:1rem;
+}
+.bt-twitter:hover{
+    border:1px solid white;
+    background-color: #01daba;
+    color:white;
+   }
+
+   .brand-nav{
+    font-family: loveloline_light;
+    font-weight: normal;
+    color:#01daba;
+    font-weight:900;
+    font-size: 30px;
+
+}
+.tw{
+    color:white;
+}
+  /* Timer CSS  */
+
+#countdown {
+    position: relative;
+    margin-top:0;
+    margin-left: auto;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+  }
+  
+  #countdown-number {
+    color: green;
+    display: inline-block;
+    line-height: 40px;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    transform: rotateY(-180deg) rotateZ(-90deg);
+  }
+  
+  svg circle {
+    stroke-dasharray: 113px;
+    stroke-dashoffset: 0px;
+    stroke-linecap: round;
+    stroke-width: 4px;
+    stroke: rgb(93,199,194);
+    fill: none;
+    animation: countdown 60s linear infinite forwards;
+  }
+  
+  @keyframes countdown {
+    from {
+      stroke-dashoffset: 0px;
+    }
+    to {
+      stroke-dashoffset: 113px;
+    }
+  }
+  /* Timer CSS Ends */
+
+.btn-coin{
+  border:1px solid lightgrey;
+   border-radius: 20px;
+   font-size: 18px;
+   color:grey;
+   
+}
+.btn-coin:hover{
+  border:1px solid lightgrey;
+  background-color:#01daba;
+  color:white;
+}
+.tw{
+  border:1px solid lightgrey;
+  border-radius: 20px;
+  font-size: 18px;
+  color:grey;
+  background-color: white;
+  padding:6px 18px 6px px;
+  font-weight: 400;
+  font-family: Raleway ,sans-serif;
+  
+}
+.tw:hover{
+  background-color:#01daba;
+  border:1px solid white;
+  color:white;
+}
+.fa-telegram-plane{
+  color:#1DA1F2;
+}
+.tw .fa-telegram-plane:hover{
+  color:white;
+}
+
+.navbar-toggler{
+  background-color: #01daba;
+  color:white;
+}
+.navbar-toggler-icon{
+  filter: brightness(0) invert(1) grayscale(100%);
+}

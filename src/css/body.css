@@ -1,0 +1,106 @@
+.head{
+    width:55%;
+    background: rgba(255, 255, 255, 0.1)
+}
+.heading-main{
+   
+    
+    font-size:4rem;
+    color:#283249;
+    font-weight: 700;
+}
+.heading-small{
+    width:80%;
+    font-size:1.5rem;
+    color:rgba(48,61,83,0.7);
+}
+.bt{
+    margin-top:5%;
+}
+.bt button{
+    color:white;
+    margin-right:3%;
+}
+.btn-info{
+    background-color: #01daba;
+}
+/* banner dog image */
+.banner{
+    margin-left:1vw;
+}
+
+.mt-10{
+    margin-top: 9%;
+}
+.mt-15{
+    margin-top: 20%;
+}
+
+.slides{
+    width:85vw;
+    margin-top:25vh;
+    margin-bottom:10vh;
+}
+.slide-left{
+    width:40%;
+    padding:5vw;
+}
+.slide-right{
+    width:60%
+}
+
+.blue{
+   
+    color:#283249;
+    font-size:3rem;
+    font-weight: 600;
+}
+.green{
+   
+    color: #01daba;
+    font-size:3rem;
+    font-weight: 600;
+}
+.container{
+    padding-left: -5px;
+    padding-right:-5px;
+}
+.iconic{
+    top: 500px;
+    left: 10px;
+    width:100px;
+    position :absolute;
+    animation: jumping 2.5s ease-in-out alternate infinite;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes jumping {
+    0%{
+      top:500px;
+    }
+    50%{
+        top:540px;
+    }
+    100%{
+        top:500px;
+    }
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #01daba; /* Blue */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .spinner{
+      margin:2vh;
+      width:98vw;
+      padding-left:45vw;
+  }
